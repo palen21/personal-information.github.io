@@ -1,0 +1,113 @@
+/********************* Tag selectors *********************/
+
+:root {
+   background-color: white;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2rem
+}
+
+hr {
+  border: dotted 8px #EAF6F6;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 6.25rem;
+  font-family: 'Sacramento', cursive;
+  color: blue;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: blue;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  color: #112b9e;
+}
+
+a {
+  color: #11189e
+}
+
+/********************* Class selectors *********************/
+
+.inner-container {
+  width: 1000px;
+  position: relative;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  display: block;
+}
+
+.middle-container {
+  padding-top: 100px;
+}
+
+.bottom-container {
+  padding: 40px;
+  background-color: blue;
+}
+
+
+
+.prop-row {
+  margin: 50px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.side-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 10%;
+}
+
+
+.contact-btn {
+  background-color: blue;
+  background-image: linear-gradient(315deg, #0800ff 0%, #6681bf 74%);
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  width: 200px;
+  font-size: 32px;
+  font-weight: 100;
+  padding: 20px;
+  margin: 70px auto;
+  box-shadow: 1px 1px 10px 0px #000000;
+  text-shadow: 1px 1px 15px #000000;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-btn:hover {
+  background-color: #3354bf;
+  background-image: linear-gradient(315deg, #4133bf 0%, #11119e 74%);
+}
+
+.rights {
+  color: #EAF6F6;
+  font-size: 0.8rem;
+  margin: 30px auto 2px;
+}
